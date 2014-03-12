@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "fr.sapk.dae.bordeaux"
+        version     = "1.0.1" >
+
+    <name>DAE Bordeaux</name>
+
+    <description>
+        Une petite application listant les DAE (Défibrillateur automatique externe) dans la région de Bordeaux.
+    </description>
+
+    <author href="https://sapk.fr" email="sapk@sapk.fr">
+        Antoine GIRARD 
+    </author>
+
+    <icon src="img/defibrillator.png" />
+    
+    <preference name="phonegap-version" value="3.1.0" />
+    
+    <preference name="splash-screen-duration" value="300" />
+    <preference name="permissions" value="none"/>
+    <gap:plugin name="org.apache.cordova.geolocation" />
+    
+    <access origin="*" />
+    
+</widget>

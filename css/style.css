@@ -1,0 +1,18 @@
+.locate-control img {
+    width: 16px;
+    margin-top: 4px;
+}
+.locate-control .leaflet-disabled img {    
+    opacity: 0.5;
+}
+
+.leaflet-bottom.leaflet-right {
+    display:none;
+}
+
+
+@media (max-width: 979px) {
+    .locate-control img {
+        width: 20px;
+    }
+}
