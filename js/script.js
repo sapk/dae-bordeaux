@@ -10,7 +10,8 @@ var D = {
             D.map = L.map('map',{maxBounds:config.maxBounds}).setView(config.center, 13);
             /* good theme : 91948 14188  day : 104054 104398 night :91948*/ 
             //L.tileLayer('http://{s}.tile.cloudmade.com/9b41b832330d45e38a1a2e502878e677/104417/256/{z}/{x}/{y}.png', {
-            L.tileLayer('http://dae.sapk.fr/api/tile.php?z={z}&x={x}&y={y}', {
+            //L.tileLayer('http://dae.sapk.fr/api/tile.php?z={z}&x={x}&y={y}', {
+            L.tileLayer('http://{s}.tiles.mapbox.com/v3/sapk.m06ef4nl/{z}/{x}/{y}.png', {
                 attribution: ' ',
                 maxZoom: config.maxZoom,
                 minZoom: config.minZoom
